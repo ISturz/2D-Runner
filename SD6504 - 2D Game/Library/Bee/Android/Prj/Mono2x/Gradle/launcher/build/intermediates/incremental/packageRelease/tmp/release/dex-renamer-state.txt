@@ -1,0 +1,4 @@
+#Wed Aug 31 12:07:03 NZST 2022
+base.0=D\:\\Downloads\\School\\Game Dev\\SD6504 - 2D Game\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

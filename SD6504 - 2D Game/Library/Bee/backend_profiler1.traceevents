@@ -1,0 +1,522 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1661903469660499, "dur":668, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903469661173, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1661903469661236, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1661903469661253, "dur":617, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1661903469661886, "dur":411, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903469662297, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470330058, "dur":214, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470330272, "dur":203, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470330475, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470330476, "dur":187, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470330663, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470330664, "dur":191, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470330855, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470330856, "dur":184, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470331041, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470331041, "dur":183, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470331224, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470331224, "dur":183, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470331407, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470331408, "dur":244, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470331652, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470331653, "dur":188, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470331841, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470331842, "dur":183, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470332025, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470332026, "dur":184, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470332210, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470332211, "dur":182, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470332393, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470332394, "dur":183, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470332577, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470332586, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470332589, "dur":924, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1661903469661679, "dur":628, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661903469662307, "dur":2331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661903469664639, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1661903469664930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661903469668499, "dur":110684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1661903469779208, "dur":9538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903469788748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661903469788752, "dur":7035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903469795801, "dur":44204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903469840008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661903469840013, "dur":393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903469840417, "dur":36568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903469876988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661903469876994, "dur":117231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903469994236, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903469994850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661903469994854, "dur":14866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903470009730, "dur":22553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903470032287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661903470032292, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903470032703, "dur":51149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903470083855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661903470083861, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903470084704, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903470084720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661903470084725, "dur":127380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903470212117, "dur":35827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903470247946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1661903470247952, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1661903470248617, "dur":81455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469661680, "dur":624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469662305, "dur":2323, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469664635, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1661903469664636, "dur":696, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469665335, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1661903469665339, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469665428, "dur":4230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1661903469669659, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1661903469669797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469670014, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1661903469670920, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1661903469671030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469671048, "dur":5564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1661903469676643, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469676728, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469676743, "dur":53317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469730100, "dur":43029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469773132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469773139, "dur":22666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469795819, "dur":21958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469817783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469817791, "dur":468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469818269, "dur":29352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469847625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469847631, "dur":405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469848046, "dur":15475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469863526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469863532, "dur":32768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469896310, "dur":8939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469905251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469905255, "dur":89162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469994429, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903469994973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903469994978, "dur":14063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903470009052, "dur":12462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903470021516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903470021522, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903470022123, "dur":23111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903470045237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903470045243, "dur":397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903470045649, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903470045666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903470045671, "dur":27180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903470072862, "dur":169273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903470242175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1661903470242184, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1661903470242745, "dur":87309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903469661708, "dur":606, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903469662314, "dur":2324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903469664638, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1661903469664966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903469668055, "dur":9205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1661903469677294, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1661903469677406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903469677410, "dur":58687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1661903469736131, "dur":9754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903469745889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903469745895, "dur":50634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903469796540, "dur":67164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903469863707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903469863712, "dur":130517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903469994242, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903469994843, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903469994848, "dur":14111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903470008969, "dur":34570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903470043542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903470043548, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903470044174, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903470044189, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903470044194, "dur":12522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903470056726, "dur":25603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903470082333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903470082340, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903470082925, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903470082939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903470082944, "dur":149993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1661903470232948, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1661903470232969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903470232974, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1661903470234191, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1661903470234203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903470234208, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1661903470234785, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1661903470234797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903470234801, "dur":349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1661903470235159, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1661903470235172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1661903470235176, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1661903470235630, "dur":94437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903469661701, "dur":609, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903469662310, "dur":2326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903469664637, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1661903469664963, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903469668172, "dur":8506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1661903469676715, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903469676800, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903469676804, "dur":95119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903469771953, "dur":10936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903469782892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903469782898, "dur":34944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903469817858, "dur":31666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903469849527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903469849534, "dur":464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903469850011, "dur":14615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903469864629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903469864635, "dur":129473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903469994215, "dur":37481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903470031699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903470031705, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903470032326, "dur":11218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903470043547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903470043553, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903470044093, "dur":66573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903470110671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903470110679, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903470111631, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903470111649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903470111654, "dur":24054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903470135721, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903470135735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1661903470135742, "dur":130170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1661903470265921, "dur":64137, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903469661724, "dur":594, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903469662318, "dur":2316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903469664635, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1661903469665048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903469665656, "dur":6470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1661903469672157, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1661903469672242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903469672247, "dur":5340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1661903469677621, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1661903469677720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903469677818, "dur":17280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1661903469695140, "dur":26806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903469721950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903469721957, "dur":73852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903469795822, "dur":55378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903469851204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903469851210, "dur":444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903469851664, "dur":15169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903469866836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903469866842, "dur":127237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903469994089, "dur":1243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903469995335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903469995341, "dur":13639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903470008993, "dur":53241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903470062237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903470062245, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903470062765, "dur":32848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903470095618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903470095627, "dur":451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903470096088, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903470096127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903470096131, "dur":56206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903470152347, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903470152360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1661903470152365, "dur":86280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1661903470238656, "dur":91402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903469661775, "dur":546, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903469662321, "dur":2314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903469664635, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1661903469665037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903469665665, "dur":8487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1661903469674185, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1661903469674268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903469674274, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1661903469677611, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project.exe" }}
+,{ "pid":12345, "tid":6, "ts":1661903469677627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903469677631, "dur":3001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project.exe" }}
+,{ "pid":12345, "tid":6, "ts":1661903469680643, "dur":11497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903469692145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903469692303, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903469692815, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903469692831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903469692846, "dur":102771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903469795629, "dur":69730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903469865362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903469865368, "dur":128937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903469994332, "dur":34103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470028438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903470028445, "dur":410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470028868, "dur":13485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470042356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903470042363, "dur":440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470042813, "dur":12126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470054956, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903470055009, "dur":530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470055549, "dur":12271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470067823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903470067829, "dur":382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470068220, "dur":14735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470082958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903470082964, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470083369, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470083384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903470083388, "dur":37577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470120979, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470120996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903470121001, "dur":63655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470184667, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470184687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1661903470184692, "dur":145307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1661903470330009, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1661903470330010, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903469661790, "dur":535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903469662325, "dur":2307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903469664635, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1661903469664776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903469665644, "dur":18537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1661903469684217, "dur":14172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903469698393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903469698401, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903469698904, "dur":26978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903469725885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903469725891, "dur":70201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903469796102, "dur":43296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903469839403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903469839412, "dur":462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903469839885, "dur":28178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903469868115, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903469868120, "dur":126240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903469994372, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903469994840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903469994845, "dur":14128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903470008985, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903470009005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903470009012, "dur":33699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903470042724, "dur":29217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903470071944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903470071950, "dur":4973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903470076937, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903470077396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903470077403, "dur":437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903470077849, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903470077865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903470077870, "dur":79812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903470157693, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903470157707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903470157713, "dur":74159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1661903470231886, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1661903470231901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903470231908, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1661903470232452, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1661903470232525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903470232530, "dur":399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1661903470232939, "dur":5871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1661903470238813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1661903470238820, "dur":430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1661903470239261, "dur":90795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903469661840, "dur":495, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903469662336, "dur":2299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903469664636, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1661903469665030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903469665659, "dur":113743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1661903469779425, "dur":9197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903469788624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903469788629, "dur":7332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903469795970, "dur":24589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903469820562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903469820569, "dur":413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903469820992, "dur":41840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903469862837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903469862846, "dur":538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903469863395, "dur":17088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903469880486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903469880491, "dur":113767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903469994269, "dur":33100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903470027373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903470027381, "dur":424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903470027815, "dur":18579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903470046411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903470046417, "dur":399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903470046825, "dur":36334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903470083162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903470083167, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903470083740, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903470083755, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903470083759, "dur":60774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903470144546, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903470144559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1661903470144565, "dur":108765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1661903470253341, "dur":76720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903469661824, "dur":508, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903469662332, "dur":2301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903469664636, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1661903469665054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903469665653, "dur":6434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1661903469672118, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1661903469672201, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903469672206, "dur":107391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1661903469779630, "dur":8970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903469788602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903469788608, "dur":7347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903469795964, "dur":50680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903469846649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903469846659, "dur":438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903469847106, "dur":16299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903469863408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903469863414, "dur":32609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903469896034, "dur":8824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903469904860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903469904866, "dur":89497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903469994375, "dur":771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903469995148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903469995154, "dur":13794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903470008960, "dur":12540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903470021503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903470021509, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903470022132, "dur":62843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903470084978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903470084984, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903470085488, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903470085502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903470085507, "dur":92202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903470177725, "dur":23250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903470200980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903470200989, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903470201801, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903470201818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1661903470201823, "dur":107161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1661903470308994, "dur":21065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903469661805, "dur":524, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903469662329, "dur":2308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903469664638, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1661903469664944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903469665654, "dur":8874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1661903469674565, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903469674651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903469674736, "dur":43952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903469718724, "dur":13552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903469732279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903469732285, "dur":63531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903469795827, "dur":104550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903469900379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903469900385, "dur":107793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470008193, "dur":12834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470021032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903470021041, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470021547, "dur":12912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470034462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903470034468, "dur":391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470034870, "dur":14843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470049716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903470049722, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470050422, "dur":21212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470071638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903470071645, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470072221, "dur":48139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470120364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903470120370, "dur":599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470120980, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470120998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903470121003, "dur":19576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470140590, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470140607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1661903470140613, "dur":115166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1661903470255789, "dur":74271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903469661854, "dur":484, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903469662338, "dur":2294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903469664635, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1661903469665044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903469665760, "dur":5155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1661903469670951, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1661903469671048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903469671053, "dur":6804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1661903469677888, "dur":39994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903469717885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903469717891, "dur":77508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903469795417, "dur":69272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903469864692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903469864698, "dur":129378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903469994088, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903469994749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903469994756, "dur":13917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903470008685, "dur":32039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903470040729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903470040737, "dur":571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903470041318, "dur":17880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903470059201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903470059209, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903470059957, "dur":88616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903470148576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903470148584, "dur":461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903470149054, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903470149067, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903470149071, "dur":78737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1661903470227822, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1661903470227836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903470227843, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1661903470228483, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1661903470228497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903470228516, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1661903470229566, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1661903470229580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903470229585, "dur":4692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1661903470234288, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1661903470234301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903470234320, "dur":495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1661903470234825, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1661903470234841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903470234845, "dur":423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1661903470235277, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1661903470235340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1661903470235344, "dur":405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1661903470235757, "dur":94298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903469661902, "dur":439, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903469662341, "dur":2295, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903469664636, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1661903469665000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903469665748, "dur":5929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1661903469671711, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1661903469671821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903469671827, "dur":6234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1661903469678098, "dur":24626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903469702727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903469702736, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903469703243, "dur":14293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903469717542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903469717552, "dur":479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903469718044, "dur":19342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903469737389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903469737397, "dur":58484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903469795894, "dur":88377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903469884274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903469884278, "dur":124053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470008341, "dur":23066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470031411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903470031418, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470032158, "dur":13611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470045772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903470045778, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470046183, "dur":17423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470063609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903470063615, "dur":392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470064017, "dur":35725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470099746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903470099752, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470100362, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470100375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903470100380, "dur":48517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470148907, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470148921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903470148941, "dur":35008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470183961, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470183975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903470183982, "dur":28515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1661903470212587, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1661903470212603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903470212622, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1661903470213300, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1661903470213316, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903470213320, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1661903470214999, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1661903470215012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1661903470215017, "dur":28653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Downloads/School/Game Dev/SD6504 - 2D Game Build/My project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1661903470243680, "dur":86383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1661903470335824, "dur":1210, "ph":"X", "name": "ProfilerWriteOutput" }
+,
